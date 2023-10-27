@@ -1,0 +1,48 @@
+/* Increase the size of the navigation bar */
+nav {
+    background-color: black;
+    padding: 20px;
+}
+
+/* Style the navbar list and links */
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Increase the font size of the menu tools */
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Create a two-column layout for the home page and other sections */
+.content-container {
+    display: flex;
+    align-items: flex-start; /* Add this line to align content to the top (left) */
+}
+
+.column {
+    width: 50%;
+}
+
+/* Specify the font for headers (h1, h2, h3, etc.) */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Agbalumo', sans-serif;
+}
+
+/* Specify the font for paragraphs (p) */
+p {
+    font-family: 'Audowide', sans-serif;
+    font-size: 18px;
+}
+
+.image {
+    display: table-cell;
+    padding-left: 100px;
+}
+.products-container {
+    
+}
